@@ -38,6 +38,8 @@ python run_MD.py
 
 Some key things: The filename of the model which is loaded is usually hardcoded!, Make sure you have a `xyz` directory to store the coordinates of every nth step.
 The calculator python file for QMLightning has to be stored in ASE calculator directory.
+Furthermkore, you have two calculators, one for PBC and one without. The PBC are hardcoded in the ASE calculaotr, please adapt them for task3, resp. task4.
+Training never requires the PBD (or cells).
 
 
 ### making GIFs using Jmol
