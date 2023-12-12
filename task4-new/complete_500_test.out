@@ -1,0 +1,36 @@
+---Argument Summary---
+Namespace(ntrain='complete/500/train.npz', ntest='complete/500/test.npz', nbatch_train=4, nbatch_test=8, sigma=38.4, llambda=1e-08, npcas=128, ntransforms=1, nstacks=128, rcut=6.0, nRs2=24, nRs3=22, eta2=0.28, eta3=3.2, two_body_decay=2.3, three_body_decay=0.65, three_body_weight=18.8, hyperparam_opt=0, forces=1, train_ids='splits/aspirin_train_ids.npy', test_ids='splits/aspirin_test_ids.npy', path='../data/aspirin_dft.npz')
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 780 -> 128  Cumulative Explained Feature Variance =  99.07 %
+element 6: 780 -> 128  Cumulative Explained Feature Variance =  99.91 %
+element 7: 780 -> 128  Cumulative Explained Feature Variance =  99.91 %
+element 53: 780 -> 128  Cumulative Explained Feature Variance =  99.28 %
+element 82: 780 -> 128  Cumulative Explained Feature Variance =  99.94 %
+ZTZ time:  80182.0546875 ms
+coefficients time:  374.3578796386719 ms
+max_natoms= 384
+batch 1 of 22: ib=0, ie=32
+batch 2 of 22: ib=32, ie=64
+batch 3 of 22: ib=64, ie=96
+batch 4 of 22: ib=96, ie=128
+batch 5 of 22: ib=128, ie=160
+batch 6 of 22: ib=160, ie=192
+batch 7 of 22: ib=192, ie=224
+batch 8 of 22: ib=224, ie=256
+batch 9 of 22: ib=256, ie=288
+batch 10 of 22: ib=288, ie=320
+batch 11 of 22: ib=320, ie=352
+batch 12 of 22: ib=352, ie=384
+batch 13 of 22: ib=384, ie=416
+batch 14 of 22: ib=416, ie=448
+batch 15 of 22: ib=448, ie=480
+batch 16 of 22: ib=480, ie=512
+batch 17 of 22: ib=512, ie=544
+batch 18 of 22: ib=544, ie=576
+batch 19 of 22: ib=576, ie=608
+batch 20 of 22: ib=608, ie=640
+batch 21 of 22: ib=640, ie=672
+batch 22 of 22: ib=672, ie=698
+MAE_e:  36.72679560539716
+MAE_f:  2.7766464536721047
