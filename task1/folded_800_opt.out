@@ -1,0 +1,264 @@
+---Argument Summary---
+Namespace(ntrain='folded/800/train.npz', ntest='folded/800/validation.npz', nbatch_train=128, nbatch_test=128, sigma=2.0, llambda=1e-05, npcas=128, ntransforms=1, nstacks=128, rcut=6.0, nRs2=24, nRs3=22, eta2=0.28, eta3=3.2, two_body_decay=2.3, three_body_decay=0.65, three_body_weight=18.8, hyperparam_opt=0, forces=1, train_ids='splits/aspirin_train_ids.npy', test_ids='splits/aspirin_test_ids.npy', path='../data/aspirin_dft.npz')
+(42, 3)
+(42,)
+Sigma:  4.8 llambda= 1e-06
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.05 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.28 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.52 %
+ZTZ time:  4567.0595703125 ms
+coefficients time:  371.9067687988281 ms
+MAE_e:  2.356982074265834
+MAE_f:  2.679042342103037
+RMSE_e:  2.356982074265834
+RMSE_f:  3.6550644475512057
+Sigma:  4.8 llambda= 1e-08
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.04 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.30 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.52 %
+ZTZ time:  4575.35693359375 ms
+coefficients time:  362.125732421875 ms
+MAE_e:  2.260106577275437
+MAE_f:  2.6688225421354885
+RMSE_e:  2.260106577275437
+RMSE_f:  3.6624506514097828
+Sigma:  4.8 llambda= 1e-10
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.06 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.29 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.51 %
+ZTZ time:  4615.65625 ms
+coefficients time:  363.50054931640625 ms
+MAE_e:  2.4500251059149742
+MAE_f:  2.8085504880597534
+RMSE_e:  2.4500251059149742
+RMSE_f:  3.8630091166704674
+Sigma:  4.8 llambda= 1e-12
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.04 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.29 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.51 %
+ZTZ time:  4538.63134765625 ms
+coefficients time:  361.3107604980469 ms
+MAE_e:  2.400864746600564
+MAE_f:  2.7522265634103014
+RMSE_e:  2.400864746600564
+RMSE_f:  3.7947292635128687
+Sigma:  4.8 llambda= 1e-14
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.06 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.29 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.52 %
+ZTZ time:  4546.296875 ms
+coefficients time:  361.3970947265625 ms
+MAE_e:  2.2757776661860407
+MAE_f:  2.7948232765471857
+RMSE_e:  2.2757776661860407
+RMSE_f:  3.8748966202095607
+Sigma:  9.6 llambda= 1e-06
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.07 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.27 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.51 %
+ZTZ time:  4513.97509765625 ms
+coefficients time:  362.2666931152344 ms
+MAE_e:  1.2364573651432875
+MAE_f:  1.3249297545184016
+RMSE_e:  1.2364573651432875
+RMSE_f:  1.7953261682011827
+Sigma:  9.6 llambda= 1e-08
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.06 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.29 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.53 %
+ZTZ time:  4514.65625 ms
+coefficients time:  377.9886169433594 ms
+MAE_e:  0.9166845239646499
+MAE_f:  1.1433962771708832
+RMSE_e:  0.9166845239646499
+RMSE_f:  1.5681194028093137
+Sigma:  9.6 llambda= 1e-10
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.05 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.28 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.51 %
+ZTZ time:  4622.7578125 ms
+coefficients time:  366.94293212890625 ms
+MAE_e:  0.8972143805798259
+MAE_f:  1.1559248775888218
+RMSE_e:  0.8972143805798259
+RMSE_f:  1.5884566642448363
+Sigma:  9.6 llambda= 1e-12
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.05 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.28 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.52 %
+ZTZ time:  4530.212890625 ms
+coefficients time:  365.5072326660156 ms
+MAE_e:  0.9466449828314945
+MAE_f:  1.1754593288272013
+RMSE_e:  0.9466449828314945
+RMSE_f:  1.6175050148931953
+Sigma:  9.6 llambda= 1e-14
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.08 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.28 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.51 %
+ZTZ time:  4704.09130859375 ms
+coefficients time:  364.620849609375 ms
+MAE_e:  0.896036172885797
+MAE_f:  1.1706019633365061
+RMSE_e:  0.896036172885797
+RMSE_f:  1.6040586996372905
+Sigma:  19.2 llambda= 1e-06
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.05 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.28 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.51 %
+ZTZ time:  4530.62939453125 ms
+coefficients time:  360.2461242675781 ms
+MAE_e:  1.273415899341926
+MAE_f:  1.3294020936151238
+RMSE_e:  1.273415899341926
+RMSE_f:  1.8286708374118763
+Sigma:  19.2 llambda= 1e-08
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.05 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.28 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.51 %
+ZTZ time:  4619.80078125 ms
+coefficients time:  365.0863342285156 ms
+MAE_e:  0.7627298301490373
+MAE_f:  0.9904127246245502
+RMSE_e:  0.7627298301490373
+RMSE_f:  1.3638004193835862
+Sigma:  19.2 llambda= 1e-10
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.06 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.28 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.52 %
+ZTZ time:  4676.52587890625 ms
+coefficients time:  366.41961669921875 ms
+MAE_e:  0.7404741263436153
+MAE_f:  0.9843914774951181
+RMSE_e:  0.7404741263436153
+RMSE_f:  1.3590703057306444
+Sigma:  19.2 llambda= 1e-12
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.04 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.27 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.54 %
+ZTZ time:  4527.365234375 ms
+coefficients time:  366.99072265625 ms
+MAE_e:  0.7678184498351766
+MAE_f:  0.9857506761447385
+RMSE_e:  0.7678184498351766
+RMSE_f:  1.3605080691987286
+Sigma:  19.2 llambda= 1e-14
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.05 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.29 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.52 %
+ZTZ time:  4528.2060546875 ms
+coefficients time:  366.18731689453125 ms
+MAE_e:  0.7440680216284818
+MAE_f:  0.9901029772193852
+RMSE_e:  0.7440680216284818
+RMSE_f:  1.3675982974826053
+Sigma:  38.4 llambda= 1e-06
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.07 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.29 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.52 %
+ZTZ time:  4527.9755859375 ms
+coefficients time:  357.6140441894531 ms
+MAE_e:  1.6663268916579546
+MAE_f:  1.7177615272485554
+RMSE_e:  1.6663268916579546
+RMSE_f:  2.3793824270815382
+Sigma:  38.4 llambda= 1e-08
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.05 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.28 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.52 %
+ZTZ time:  4556.29833984375 ms
+coefficients time:  362.7355651855469 ms
+MAE_e:  0.9236803394218441
+MAE_f:  1.1164583529904342
+RMSE_e:  0.9236803394218441
+RMSE_f:  1.5373115977708494
+Sigma:  38.4 llambda= 1e-10
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.04 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.29 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.48 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.51 %
+ZTZ time:  4756.01806640625 ms
+coefficients time:  365.5396423339844 ms
+MAE_e:  0.7173697251520934
+MAE_f:  0.9577345269171169
+RMSE_e:  0.7173697251520934
+RMSE_f:  1.3235554928927469
+Sigma:  38.4 llambda= 1e-12
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.07 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.29 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.49 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.52 %
+ZTZ time:  4511.90185546875 ms
+coefficients time:  367.9072570800781 ms
+MAE_e:  0.833328493386798
+MAE_f:  0.9798980276981654
+RMSE_e:  0.833328493386798
+RMSE_f:  1.3571401095075175
+Sigma:  38.4 llambda= 1e-14
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.05 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.29 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.49 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.52 %
+ZTZ time:  4553.068359375 ms
+coefficients time:  367.1217956542969 ms
+MAE_e:  0.9414805936842459
+MAE_f:  0.9892036461512926
+RMSE_e:  0.9414805936842459
+RMSE_f:  1.3649014644480133

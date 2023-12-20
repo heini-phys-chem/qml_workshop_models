@@ -1,0 +1,27 @@
+---Argument Summary---
+Namespace(ntrain='complete/800/train.npz', ntest='complete/800/test.npz', nbatch_train=128, nbatch_test=128, sigma=19.2, llambda=1e-08, npcas=128, ntransforms=1, nstacks=128, rcut=6.0, nRs2=24, nRs3=22, eta2=0.28, eta3=3.2, two_body_decay=2.3, three_body_decay=0.65, three_body_weight=18.8, hyperparam_opt=0, forces=1, train_ids='splits/aspirin_train_ids.npy', test_ids='splits/aspirin_test_ids.npy', path='../data/aspirin_dft.npz')
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 336 -> 128  Cumulative Explained Feature Variance =  99.97 %
+element 6: 336 -> 128  Cumulative Explained Feature Variance =  99.95 %
+element 7: 336 -> 128  Cumulative Explained Feature Variance =  99.99 %
+ZTZ time:  16977.140625 ms
+coefficients time:  368.58685302734375 ms
+max_natoms= 114
+batch 1 of 15: ib=0, ie=1000
+batch 2 of 15: ib=1000, ie=2000
+batch 3 of 15: ib=2000, ie=3000
+batch 4 of 15: ib=3000, ie=4000
+batch 5 of 15: ib=4000, ie=5000
+batch 6 of 15: ib=5000, ie=6000
+batch 7 of 15: ib=6000, ie=7000
+batch 8 of 15: ib=7000, ie=8000
+batch 9 of 15: ib=8000, ie=9000
+batch 10 of 15: ib=9000, ie=10000
+batch 11 of 15: ib=10000, ie=11000
+batch 12 of 15: ib=11000, ie=12000
+batch 13 of 15: ib=12000, ie=13000
+batch 14 of 15: ib=13000, ie=14000
+batch 15 of 15: ib=14000, ie=15000
+MAE_e:  4.491633198051496
+MAE_f:  4.374669080932023

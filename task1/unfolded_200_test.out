@@ -1,0 +1,20 @@
+---Argument Summary---
+Namespace(ntrain='unfolded/200/train.npz', ntest='unfolded/200/test.npz', nbatch_train=128, nbatch_test=128, sigma=19.2, llambda=1e-08, npcas=128, ntransforms=1, nstacks=128, rcut=6.0, nRs2=24, nRs3=22, eta2=0.28, eta3=3.2, two_body_decay=2.3, three_body_decay=0.65, three_body_weight=18.8, hyperparam_opt=0, forces=1, train_ids='splits/aspirin_train_ids.npy', test_ids='splits/aspirin_test_ids.npy', path='../data/aspirin_dft.npz')
+Note: results are in kcal/mol (/A for forces)
+Calculating projection matrices...
+element 1: 536 -> 128  Cumulative Explained Feature Variance =  99.35 %
+element 6: 536 -> 128  Cumulative Explained Feature Variance =  99.50 %
+element 7: 536 -> 128  Cumulative Explained Feature Variance =  99.70 %
+element 8: 536 -> 128  Cumulative Explained Feature Variance =  99.69 %
+ZTZ time:  1109.886962890625 ms
+coefficients time:  370.8826904296875 ms
+max_natoms= 42
+batch 1 of 7: ib=0, ie=3000
+batch 2 of 7: ib=3000, ie=6000
+batch 3 of 7: ib=6000, ie=9000
+batch 4 of 7: ib=9000, ie=12000
+batch 5 of 7: ib=12000, ie=15000
+batch 6 of 7: ib=15000, ie=18000
+batch 7 of 7: ib=18000, ie=20000
+MAE_e:  4.926072316255257
+MAE_f:  1.8631129280776477
